@@ -1,5 +1,5 @@
 import streamlit as st
-st.set_page_config(page_title="House Price Predictor", page_icon="🏠", layout="wide")
+st.set_page_config(page_title="House Price Predictor", layout="wide")
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression
