@@ -1,9 +1,10 @@
 import streamlit as st
+st.set_page_config(page_title="House Price Predictor", page_icon="🏠", layout="wide")
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
-st.set_page_config(page_title="House Price Predictor", page_icon="🏠", layout="wide")
+
 # Load your dataset
 # df = pd.read_csv('your_dataset.csv')
 
