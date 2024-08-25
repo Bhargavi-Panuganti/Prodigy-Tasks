@@ -30,5 +30,5 @@ area = st.number_input("Enter the area in square feet:", min_value=0, max_value=
 # Predict the price
 if st.button("Predict"):
     prediction = model.predict(np.array([[area]]))
-    st.write(f"The predicted price for a {area} sqft house is ${prediction[0]:,.2f}")
+    st.write(f"The predicted price for a {area} sqft house is Rs{prediction[0]:,.2f}")
 
