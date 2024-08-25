@@ -24,7 +24,7 @@ model.fit(X, y)
 
 # Streamlit App
 st.title("House Price Prediction")
-st.set_page_config(page_title="House Price Predictor", layout="wide")
+
 
 # User input for area
 area = st.number_input("Enter the area in square feet:", min_value=0, max_value=10000, value=1500)
