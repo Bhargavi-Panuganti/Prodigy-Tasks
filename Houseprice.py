@@ -5,11 +5,7 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
-# Load your dataset
-# df = pd.read_csv('your_dataset.csv')
 
-# For example purposes, let's create a dummy dataset
-# Replace this with your actual dataset loading code
 data = {
     'Area': [1000, 1500, 2000, 2500, 3000],
     'Price': [200000, 300000, 400000, 500000, 600000]
